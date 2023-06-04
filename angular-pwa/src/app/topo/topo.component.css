@@ -1,0 +1,20 @@
+.topo figure{
+    max-width:120px;
+    margin-bottom:0;
+}
+
+.topo .nav .nav-item .nav-link{
+    color:#333;
+}
+
+.topo .nav .nav-item .nav-link:hover{
+    color:#8B8982;
+}
+
+.topo .nav .nav-item .nav-link.active{
+    color:#6C91C2;
+}
+
+.topo .nav .nav-item .nav-link.btn{
+    color:#FFF;
+}
