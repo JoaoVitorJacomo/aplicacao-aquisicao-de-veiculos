@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./rodape.component.css']
 })
 export class RodapeComponent {
-  
+
 }
