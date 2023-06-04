@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { CardCarroComponent } from './card-carro/card-carro.component';
+import { TopoComponent } from './topo/topo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RodapeComponent,
-    CardCarroComponent
+    CardCarroComponent,
+    TopoComponent
   ],
   imports: [
     BrowserModule
