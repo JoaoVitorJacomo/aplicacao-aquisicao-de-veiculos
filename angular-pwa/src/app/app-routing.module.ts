@@ -5,10 +5,8 @@ import { LoginComponent } from "./login/login.component";
 import { ErroComponent } from "./erro/erro.component";
 
 const routes: Routes = [
-    {path: 'home', component : AppComponent},
+    {path: '', component : AppComponent},
     {path: 'login', component : LoginComponent},
-    {path: '', redirectTo: '/home', pathMatch: 'full'},
-    {path: '**', component: ErroComponent}
 ];
 
 @NgModule({
