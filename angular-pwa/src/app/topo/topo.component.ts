@@ -10,7 +10,15 @@ export class TopoComponent {
   menuItemDois: string = "Sobre nós";
   menuItemTres: string = "Cadastrar Veículo";
   menuItemQuatro: string = "Sair";
-  onClick(){
+  deslogar(){
     alert("Deslogando.");
+  }
+  abrirMenu(){
+    let elemento = document.querySelector('html');
+    if(elemento?.classList.contains("active")){
+      elemento?.classList.remove("active");
+    }else{
+      elemento?.classList.add("active");
+    }
   }
 }
