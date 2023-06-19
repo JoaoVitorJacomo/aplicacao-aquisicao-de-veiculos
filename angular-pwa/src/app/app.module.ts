@@ -5,16 +5,24 @@ import { AppComponent } from './app.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { CardCarroComponent } from './card-carro/card-carro.component';
 import { TopoComponent } from './topo/topo.component';
+import { LandPageComponent } from './land-page/land-page.component';
+import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RodapeComponent,
     CardCarroComponent,
-    TopoComponent
+    TopoComponent,
+    LandPageComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
