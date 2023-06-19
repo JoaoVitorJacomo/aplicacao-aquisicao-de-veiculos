@@ -9,6 +9,7 @@ import { LandPageComponent } from './land-page/land-page.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { LoginTemplateComponent } from './login-template/login-template.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HomeComponent } from './home/home.component';
     CardCarroComponent,
     TopoComponent,
     LandPageComponent,
-    HomeComponent
+    HomeComponent,
+    LoginTemplateComponent
   ],
   imports: [
     BrowserModule,
