@@ -10,6 +10,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LoginTemplateComponent } from './login-template/login-template.component';
+import { CadastroPageComponent } from './cadastro-page/cadastro-page.component';
+import { SobrePageComponent } from './sobre-page/sobre-page.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { LoginTemplateComponent } from './login-template/login-template.componen
     TopoComponent,
     LandPageComponent,
     HomeComponent,
-    LoginTemplateComponent
+    LoginTemplateComponent,
+    CadastroPageComponent,
+    SobrePageComponent
   ],
   imports: [
     BrowserModule,
