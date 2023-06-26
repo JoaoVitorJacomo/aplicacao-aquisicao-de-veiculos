@@ -6,7 +6,7 @@ import {HomeComponent} from './home/home.component';
 import {CadastroPageComponent} from './cadastro-page/cadastro-page.component'
 
 const routes: Routes = [
-  {path : 'home', component: LandPageComponent},
+  {path : 'app-land-page', component: LandPageComponent},
   // {path : '', component: HomeComponent},
   {path : '', component: CadastroPageComponent}
 ];

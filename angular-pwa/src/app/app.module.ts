@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginTemplateComponent } from './login-template/login-template.component';
 import { CadastroPageComponent } from './cadastro-page/cadastro-page.component';
 import { SobrePageComponent } from './sobre-page/sobre-page.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SobrePageComponent } from './sobre-page/sobre-page.component';
   imports: [
     BrowserModule,
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
