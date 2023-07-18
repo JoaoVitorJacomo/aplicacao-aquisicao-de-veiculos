@@ -5,6 +5,7 @@ import {HomeComponent} from './home/home.component';
 
 const routes: Routes = [
   {path : 'app-land-page', component: LandPageComponent},
+  {path : 'app-home', component: HomeComponent},
   { path: '', redirectTo: 'app-land-page', pathMatch: 'full' },
   { path: '**', component: LandPageComponent }
 ];
