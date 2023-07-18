@@ -1,0 +1,18 @@
+.section{
+    background-color:#EEE;
+    padding:70px 0;
+}
+
+.card-carro{
+    background-color:#ccc;
+    padding:10px 2px;
+    text-align:center;
+}
+
+.card-carro .card-carro__content{
+
+}
+
+.card-carro .card-carro__content span{
+    color:seagreen;
+}
