@@ -7,12 +7,32 @@
     background-color:#ccc;
     padding:10px 2px;
     text-align:center;
+    overflow:hidden;
+    margin-bottom:40px;
 }
 
-.card-carro .card-carro__content{
+.card-carro img{
+    transition:transform 0.3s linear;
+}
 
+.card-carro:hover img{
+transform:scale(1.1);
+}
+
+.card-carro .card-carro__content h2{
+  font-size:20px;
+}
+
+.card-carro .card-carro__content h3{
+  font-size:18px;
 }
 
 .card-carro .card-carro__content span{
     color:seagreen;
+}
+
+@media(max-width:966px){
+  .section{
+    padding:90px 0;
+  }
 }
