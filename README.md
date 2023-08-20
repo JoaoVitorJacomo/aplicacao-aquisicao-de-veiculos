@@ -27,10 +27,10 @@ https://drive.google.com/file/d/11GFgmuqAbEzsUrZ9qknr8JR3m9pgCYx0/view?usp=drive
 
 ## Páginas Desenvolvidas
 
--[x] Login = app-land-page
--[x] Index = app-home
--[x] Cadastro = app-cadastro-page
--[x] Sobre = app-sobre-page
+- [x] Login = app-land-page
+- [x] Index = app-home
+- [x] Cadastro = app-cadastro-page
+- [x] Sobre = app-sobre-page
 
 ## Manual de execução
 - Clonar o repositório com `git clone`
