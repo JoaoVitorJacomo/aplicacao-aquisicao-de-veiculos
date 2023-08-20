@@ -1,0 +1,38 @@
+{
+  "background_color": "#ffffff",
+  "display": "browser",
+  "name": "joaovitorjacomo.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "joaovitorjacomo.github",
+  "start_url": "/app-land-page",
+  "theme_color": "#9b1c1c",
+  "categories": [
+    "utilities"
+  ],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [
+    {
+      "name": "veiculos",
+      "url": "veiculos",
+      "description": "veiculos"
+    }
+  ],
+  "id": "https://joaovitorjacomo.github.io/aplicacao-aquisicao-de-veiculos",
+  "description": "Projeto de Aquisição de Veículos.",
+  "lang": "pt",
+  "display_override": [
+    "browser",
+    "minimal-ui",
+    "fullscreen",
+    "standalone",
+    "window-controls-overlay"
+  ],
+  "iarc_rating_id": "18",
+  "prefer_related_applications": true,
+  "edge_side_panel": {
+    "preferred_width": 1
+  },
+  "dir": "auto"
+}
