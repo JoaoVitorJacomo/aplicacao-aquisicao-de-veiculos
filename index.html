@@ -9,4 +9,18 @@
   <app-root></app-root>
 <script src="runtime.080825e25f44479b.js" type="module"></script><script src="polyfills.36201ad2d11fbb42.js" type="module"></script><script src="main.91de1fb64508c40a.js" type="module"></script>
 
-</body></html>
+</body>
+
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(registration => {
+        console.log('O Service Worker foi registrado com o seguinte escopo:', registration.scope);
+      })
+      .catch(error => {
+        console.error('O Service Worker não foi registrado com sucesso:', error);
+      });
+  }
+</script>
+  
+</html>
